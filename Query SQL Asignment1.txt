@@ -1,0 +1,5 @@
+use myjavacode;
+
+create table regis(id int(3) auto_increment Primary Key, date Datetime, name varchar(20),
+email varchar(30), address varchar(100), phone varchar(15), city varchar(30), country varchar(30),
+education varchar(50), photo blob);
